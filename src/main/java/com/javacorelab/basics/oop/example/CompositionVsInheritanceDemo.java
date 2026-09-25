@@ -56,7 +56,7 @@ class LegacyEngine {
 
 final class LegacyCar extends LegacyEngine {
     private final String vin;
-
+    
     LegacyCar(String vin, int redlineRpm) {
         super(redlineRpm);
         if (vin == null || vin.isBlank()) {
